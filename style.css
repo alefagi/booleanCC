@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.container {
+  width: 63%;
+  margin: auto;
+  margin-top: 2%;
+  padding: 5% 5% 7% 5%;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  color: #ffffff;
+}
+
+header {
+  text-align: center;
+  color: #00dd00;
+}
+
+#logo {
+  width: 20%;
+}
+
+.reserve {
+  text-align: center;
+  background-color: #00dd00;
+  padding: 11px;
+}
+
+.object {
+  padding-top: 2%;
+}
+
+
+
+
+/* Animations */
+
+.charge1 {
+  background-color: #ffffff;
+  width: 0px;
+  height: 25px;
+  border-radius: 5px;
+  animation-name: charge1;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+}
+
+@keyframes charge1 {
+  from {
+    width: 0px;
+    background-color: #be4141;
+  }
+  to {
+    width: 320px;
+    background-color: #f5b453;
+  }
+}
+
+
+.charge2 {
+  background-color: #ffffff;
+  width: 0px;
+  height: 25px;
+  border-radius: 5px;
+  animation-name: charge2;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+}
+
+@keyframes charge2{
+  from {
+    width: 0px;
+    background-color: #be4141;
+  }
+  to {
+    width: 500px;
+    background-color: #1ec31e;
+  }
+}
+
+
+.charge3 {
+  background-color: #ffffff;
+  width: 0px;
+  height: 25px;
+  border-radius: 5px;
+  animation-name: charge3;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+}
+
+@keyframes charge3 {
+  from {
+    width: 0px;
+    background-color: #be4141;
+  }
+  to {
+    width: 150px;
+    background-color: #be4141;
+  }
+}
